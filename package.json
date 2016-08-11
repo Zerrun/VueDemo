@@ -4,11 +4,14 @@
   "description": "this is a vue demo",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack-dev-server --hot --inline"
   },
   "author": "errun",
   "license": "ISC",
   "devDependencies": {
-    "webpack": "^1.13.1"
+    "html-webpack-plugin": "^2.22.0",
+    "vue": "^1.0.26",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
   }
 }
