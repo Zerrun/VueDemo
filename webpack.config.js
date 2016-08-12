@@ -15,6 +15,10 @@ module.exports = {
     filename: 'bundle.js'
   },
 
+  resolve:{
+    modulesDirectories:['./node_modules']
+  },
+
   devServer: {
     historyApiFallback: true,
     hot: true,
